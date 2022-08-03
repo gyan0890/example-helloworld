@@ -167,13 +167,6 @@ Success
       Program failed to complete: exceeded maximum number of instructions allowed (200000) at instruction #334
       Program G5bbS1ipWzqQhekkiCLn6u7Y1jJdnGK85ceSYLx2kKbA failed: Program failed to complete
 
-### Customizing the Program
-
-To customize the example, make changes to the files under `/src`.  If you change
-any files under `/src/program-rust` or `/src/program-c` you will need to
-[rebuild the on-chain program](#build-the-on-chain-program) and [redeploy the program](#deploy-the-on-chain-program).
-
-Now when you rerun `npm run start`, you should see the results of your changes.
 
 ## Learn about Solana
 
@@ -275,16 +268,3 @@ This example details writing the client code in typescript; however
 the Solana client program can be written in any language. For an
 example client written in Rust and an accompanying write up see [this
 repo](https://github.com/ezekiiel/simple-solana-program).
-
-## Expand your skills with advanced examples
-
-There is lots more to learn; The following examples demonstrate more advanced
-features like custom errors, advanced account handling, suggestions for data
-serialization, benchmarking, etc...
-
-- [Programming
-  Examples](https://github.com/solana-labs/solana-program-library/tree/master/examples)
-- [Token
-  Program](https://github.com/solana-labs/solana-program-library/tree/master/token)
-- [Token Swap
-  Program](https://github.com/solana-labs/solana-program-library/tree/master/token-swap)
